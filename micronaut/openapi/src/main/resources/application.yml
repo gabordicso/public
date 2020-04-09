@@ -1,0 +1,9 @@
+micronaut:
+  application:
+    name: complete
+  router:
+    static-resources:
+      swagger:
+        enabled: true
+        paths: classpath:META-INF/swagger
+        mapping: /api/swagger/**
